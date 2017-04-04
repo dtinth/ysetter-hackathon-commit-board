@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Coda:400,800');
+@import url('https://fonts.googleapis.com/css?family=Athiti:400,700&subset=thai');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #6E2828;
+  color: #fff;
+}
