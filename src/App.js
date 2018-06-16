@@ -31,7 +31,7 @@ function getData() {
         .map(({ url: ghUrl, team }) => {
           const url = `https://api.github.com/repos/${
             ghUrl.match(/[^\/]+\/[^\/]+$/)[0]
-          }/commits`
+          }/commits${localStorage.APPEND_GH || ''}`
           return fetch(url)
             .then(response => response.json())
             .then(commits => {
